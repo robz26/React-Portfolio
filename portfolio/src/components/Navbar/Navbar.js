@@ -1,23 +1,13 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Paper,
-  CssBaseline
-} from "@material-ui/core";
-import { withStyles } from "@material-ui/core/styles";
-import "./Navbar.css"
+import { AppBar } from "@material-ui/core";
+import "./Navbar.css";
 
 const Navbar = props => {
-  const { classes } = props;
   return (
-    
-      <AppBar className={props.className} position="fixed">
+    <AppBar className={props.className} position="fixed">
       {props.children}
-      </AppBar>
-    
+    </AppBar>
   );
 };
 
-export default (Navbar);
+export default Navbar;

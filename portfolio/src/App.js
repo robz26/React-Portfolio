@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Grid from '@material-ui/core/Grid';
 import "./cover.css";
 import { Parallax } from 'react-scroll-parallax';
-import Image from "./components/Image/Image"
+// import Image from "./components/Image/Image"
 
 class App extends Component {
   render() {

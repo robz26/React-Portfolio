@@ -4,12 +4,12 @@
   color: rgba(255, 255, 255, .8)
 }
 .nav-link:hover{
-    transition:all .4s ease-out;
+    transition:all .4s ease-in;
     transform:scale(1.5);
-    -webkit-transition:all .4s ease-out;
-    -moz-transition:all .4s ease-out;
-    -ms-transition:all .4s ease-out;
-    -o-transition:all .4s ease-out;
+    -webkit-transition:all .4s ease-in;
+    -moz-transition:all .4s ease-in;
+    -ms-transition:all .4s ease-in;
+    -o-transition:all .4s ease-in;
     -webkit-transform:scale(1.5);
     -moz-transform:scale(1.5);
     -ms-transform:scale(1.5);
